@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.sdwu.android.home.sn170507180225.Ch4Activity2">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/ch4_2_rg"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="2+2=4"
+                android:tag="1"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="2+3=4"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="4+3=4"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="5+2=4"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/ch4_2_tv"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
